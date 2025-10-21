@@ -54,7 +54,7 @@ Responde à pergunta: Como? Com o que? Onde? Quando?)
   Ao iniciar o cadastro da venda o usuário deverá informar o tipo da venda, os tipos deverão ser “venda direta” ou “parceria comercial”.
   Na finalização do cadastro o sistema deve conferir o preço e aplicar os devidos descontos.
   As vendas devem possuir um status que poderá ser mudado por usuários. Os status serão “vendido”, “em produção”, “atraso”, “pronto para entrega” e “concluída”.
-  Todas as vendas deveram ser visíveis para todos os usuários do tipo produção e administrador, mas os usuários do tipo vendedor só poderão ver seus próprios cadastros.
+  Todas as vendas deverão ser visíveis para todos os usuários do tipo produção e administrador, mas os usuários do tipo vendedor só poderão ver seus próprios cadastros.
 
 - RF5 - Enviar e-mail
   O sistema deve enviar e-mail para a equipe de produção quando houver um cadastro de uma nova venda. O sistema deve enviar e-mail para o vendedor que cadastrou a venda quando houver uma mudança de status para “em produção”, “atraso”, “pronto para entrega”.
