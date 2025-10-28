@@ -12,15 +12,11 @@ Projeto Integrador de alunos da Fatec Jahu. Criado para atender uma necessidade 
 - [2. Requisitos](#2-requisitos)
   - [Requisitos funcionais](#-requisitos-funcionais)
   - [Requisitos não funcionais](#-requisitos-não-funcionais)
-- [3. Modelo de casos de uso](#3-modelo-de-casos-de-uso)
-- [4. Modelo do banco de dados](#4-modelo-do-banco-de-dados)
-- [5. Banco de dados](#5-banco-de-dados)
-- [6. Diagrama de classes](#6-diagrama-de-classes)
-- [7. Estudo de viabilidade](#7-estudo-de-viabilidade)
-- [8. Regras de negócio (Modelo canvas)](#8-regras-de-negócio-modelo-canvas)
-- [9. Design](#9-design)
-- [10. Protótipo](#10-protótipo)
-- [11. Aplicação](#11-aplicação)
+- [3. Estudo de viabilidade](#7-estudo-de-viabilidade)
+- [4. Regras de negócio (Modelo canvas)](#8-regras-de-negócio-modelo-canvas)
+- [5. Design](#9-design)
+- [6. Protótipo](#10-protótipo)
+- [7. Aplicação](#11-aplicação)
 
 </details>
 
@@ -75,25 +71,17 @@ Responde à pergunta: Como? Com o que? Onde? Quando?)
   
 - RNF4 - Segurança
   O sistema deve bloquear qualquer acesso que o usuário não tenha autorização para ver. O sistema deve ter cuidado com as informações cadastradas nele. 
-  
-# 3. Modelo de casos de uso
 
-# 4. Modelo do banco de dados
-(Modelo conceitual, Modelo lógico, Físico)
+# 3. Estudo de viabilidade
 
-# 5. Banco de dados
+# 4. Regras de negócio (Modelo canvas)
+  <img width="1280" height="720" alt="modeloCanva" src="https://github.com/user-attachments/assets/e216ab63-476c-424d-9f81-1603c66e12ca" />
 
-# 6. Diagrama de classes
-
-# 7. Estudo de viabilidade
-
-# 8. Regras de negócio (Modelo canvas)
-
-# 9. Design
+# 5. Design
 (Paleta de cor, Tipografia, Logo, Wireframes, Modelo de navegação)
 
-# 10. Protótipo
+# 6. Protótipo
 (Gere um protótipo funcional na ferramenta que se sentir mais confortável (Figma, por exemplo) e apresente aqui, indicando o link).
 
-# 11. Aplicação
+# 7. Aplicação
 
