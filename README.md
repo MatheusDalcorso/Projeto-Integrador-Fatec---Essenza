@@ -47,7 +47,7 @@ Responde à pergunta: Como? Com o que? Onde? Quando?)
   O usuário do tipo administrador pode criar usuários do sistema. Os usuários podem ser do tipo administrador, vendedor e produção.
 
 - RF3 - Adicionar/editar/remover produtos
-  O sistema deve permitir que usuários do tipo administrador cadastrem/editem/removam produtos.
+  O sistema deve permitir que usuários do tipo administrador cadastrem/editem/removam produtos,com atributos do código de produto, nome, descrição, preço.
 
 - RF4 - Cadastrar venda
   O sistema deve permitir que usuários do tipo vendedor e administrador cadastrem novas vendas.
