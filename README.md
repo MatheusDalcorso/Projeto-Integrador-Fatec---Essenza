@@ -23,9 +23,33 @@ Projeto Integrador de alunos da Fatec Jahu. Criado para atender uma necessidade 
 Para cada semestre, do 1º ao 6º, iremos utilizar este template para documentar o PI - incrementalmente.
 
 # 1. Introdução
-(Contextualização, Justificativa (porquê?)
+O Projeto consiste no desenvolvimento de um sistema personalizado para a empresa Essenza Collection, especializada na produção e comercialização de velas artesanais e decorativas. O sistema foi idealizado com o propósito de otimizar a comunicação interna entre gestores e colaboradores, além de agilizar os processos de gestão de produtos e vendas.
+
+A iniciativa busca modernizar a forma como as informações são compartilhadas e administradas dentro da empresa, proporcionando maior integração entre os setores, melhor controle operacional e eficiência na tomada de decisões.
+
+Desenvolvido como parte de um projeto acadêmico da Fatec Jahu, o sistema foi planejado com base no modelo de negócios da Essenza Collection, garantindo que todas as funcionalidades estejam alinhadas às suas necessidades reais e características do mercado de velas. O resultado esperado é uma ferramenta prática, segura e escalável, que contribua diretamente para o crescimento e a organização da empresa.
 
 ## • Objetivos
+
+Objetivo Geral
+
+Desenvolver um sistema personalizado para a empresa Essenza Collection, com o propósito de melhorar a comunicação interna entre gestores e colaboradores e otimizar os processos de gestão de produtos e vendas, promovendo maior eficiência, organização e integração das atividades da empresa.
+
+Objetivos Específicos
+
+Criar uma plataforma digital intuitiva que facilite a troca de informações entre os setores da empresa.
+
+Automatizar e simplificar o controle de produtos e processos de venda.
+
+Reduzir falhas de comunicação interna e retrabalho operacional.
+
+Proporcionar relatórios e dados que auxiliem na tomada de decisões gerenciais.
+
+Garantir suporte técnico contínuo e manutenção do sistema.
+
+Implementar boas práticas de desenvolvimento e segurança da informação.
+
+Integrar o sistema às necessidades reais e rotinas específicas da Essenza Collection.
 
 ## • Metodologia
 (Que métodos, tecnologias, modelos de processo, ferramentas irá utilizar?  
@@ -71,8 +95,6 @@ Responde à pergunta: Como? Com o que? Onde? Quando?)
   
 - RNF4 - Segurança
   O sistema deve bloquear qualquer acesso que o usuário não tenha autorização para ver. O sistema deve ter cuidado com as informações cadastradas nele. 
-
-# 3. Estudo de viabilidade
 
 # 4. Regras de negócio (Modelo canvas)
   <img width="1280" height="720" alt="modeloCanva" src="https://github.com/user-attachments/assets/e216ab63-476c-424d-9f81-1603c66e12ca" />
