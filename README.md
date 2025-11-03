@@ -96,14 +96,4 @@ Responde à pergunta: Como? Com o que? Onde? Quando?)
 - RNF4 - Segurança
   O sistema deve bloquear qualquer acesso que o usuário não tenha autorização para ver. O sistema deve ter cuidado com as informações cadastradas nele. 
 
-# 4. Regras de negócio (Modelo canvas)
-  <img width="1280" height="720" alt="modeloCanva" src="https://github.com/user-attachments/assets/e216ab63-476c-424d-9f81-1603c66e12ca" />
-
-# 5. Design
-(Paleta de cor, Tipografia, Logo, Wireframes, Modelo de navegação)
-
-# 6. Protótipo
-(Gere um protótipo funcional na ferramenta que se sentir mais confortável (Figma, por exemplo) e apresente aqui, indicando o link).
-
 # 7. Aplicação
-
