@@ -1,32 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synca</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Synca - Menu Vendedor</title>
+
+    <!-- ARQUIVO CSS EXTERNO -->
+    <link rel="stylesheet" href="../funcionalidades/style.css">
 </head>
 <body>
-    <div class="menu">
-        <a href="login.html">Login</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="func.html">Funcionalidades</a>
-        <a href="index.html">Home</a>
+
+    <header>
+        <img src="../img/logo-synca.png" alt="Logo Synca" class="logo">
+        <button class="logout-btn">Sair</button>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+
+            <div class="card" style="background-image: url('../img/vendas.png');" onclick="location.href='#'">
+                <p>Cadastrar<br>Vendas</p>
+            </div>
+
+            <div class="card" style="background-image: url('../img/lista-venda.png');" onclick="location.href='#'">
+                <p>Listar<br>Vendas</p>
+            </div>
+
+            <div class="card" style="background-image: url('../img/listar-produtos.png');" onclick="location.href='#'">
+                <p>Listar<br>Produtos</p>
+            </div>
+
+            <div class="card" style="width: 69rem; background-image: url('../img/historico-pedidos.png');" onclick="location.href='#'">
+                <p>Histórico de<br>Pedidos</p>
+            </div>
+
+        </div>
     </div>
 
-     <video autoplay muted loop id="bkg_video">
-        <source src="img/bkg-video.mp4" type="video/mp4">
-        Seu navegador não suporta a tag de vídeo.
-    </video>
+    <footer>
+        Synca © 2025
+    </footer>
 
-    <div class="overlay"></div>
-
-    <div class="logo">
-        <img src="img/logo-synca.png" alt="Synca Logo">
-    </div>
-
-    <div class="footer">
-        <p>© 2025 Synca. Todos os direitos reservados.</p>
-    </div>
 </body>
 </html>
