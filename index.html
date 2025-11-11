@@ -1,27 +1,40 @@
 <!DOCTYPE html>
+<html lang="en">
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Synca</title>
+    <link rel="stylesheet" href="css/style.css">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
     <video autoplay muted loop id="bkg_video">
-        <source src="img/video_background.mp4" type="video/mp4">
+        <source src="./img/background.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+        <source src="./img/background.mp4" type="video/mp4">
         Seu navegador não suporta vídeos em HTML5.
     </video>
 
+    <div class="overlay"></div>
+
+    <div class="menu">
+        <a href="/login/index.html">Login</a>
+        <a href="/sobre_nos/index.html">Sobre</a>
+        <a href="funcionalidades/index.html">Funcionalidades</a>
+        <a href="index.html">Home</a>
+    </div>
+
     <!-- LOGO -->
     <div class="logo">
-        <img src="img/logo_synca.png" alt="Logo Synca">
+        <img src="./img/logo-branca.png" alt="Logo Synca">
     </div>
 
     <!-- Conteúdo principal centralizado -->
