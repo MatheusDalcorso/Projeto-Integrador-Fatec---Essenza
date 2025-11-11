@@ -1,61 +1,35 @@
-/* Fundo - Vídeo */
-#bkg_video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synca</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 
-/* Logo */
-.logo {
-    position: fixed;
-    top: 20px;
-    left: 50px;
-    z-index: 10;
-}
-.logo img {
-    max-width: 140px;
-}
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
 
-/* Conteúdo principal */
-.intro-synca {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #FFFFFF;
-    text-align: center;
-    z-index: 20;
-}
+    <video autoplay muted loop id="bkg_video">
+        <source src="img/video_background.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
 
-.intro-synca h1,
-.intro-synca h2 {
-    font-family: "Gloock", serif;
-    font-weight: 400;
-    font-size: 40px;
-    margin: 0;
-    line-height: normal;
-}
+    <!-- LOGO -->
+    <div class="logo">
+        <img src="img/logo_synca.png" alt="Logo Synca">
+    </div>
 
-/* Botão CTA */
-.botao-cta {
-    margin-top: 30px;
-    display: inline-block;
-    padding: 12px 40px;
-    border-radius: 30px;
-    background: #FFFFFF;
-    text-decoration: none;
-    color: #000000;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    transition: 0.3s;
-}
+    <!-- Conteúdo principal centralizado -->
+    <div class="intro-synca">
+        <h1>INFORMAÇÃO QUE FLUI</h1>
+        <h2>PRODUÇÃO QUE ACONTECE</h2>
+        <a href="#" class="botao-cta">Descubra</a>
+    </div>
 
-.botao-cta:hover {
-    opacity: 0.8;
-    transform: scale(1.05);
-}
+</body>
+</html>
