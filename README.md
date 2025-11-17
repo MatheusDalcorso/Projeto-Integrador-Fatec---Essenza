@@ -12,8 +12,8 @@ Projeto Integrador de alunos da Fatec Jahu. Criado para atender uma necessidade 
 - [2. Requisitos](#2-requisitos)
   - [Requisitos funcionais](#-requisitos-funcionais)
   - [Requisitos não funcionais](#-requisitos-não-funcionais)
-- [3. Estudo de viabilidade](#7-estudo-de-viabilidade)
-- [4. Regras de negócio (Modelo canvas)](#8-regras-de-negócio-modelo-canvas)
+- [3. Estudo de viabilidade](#3-estudo-de-viabilidade)
+- [4. Regras de negócio (Modelo canvas)](#4-regras-de-negócio-modelo-canvas)
 - [5. Design](#9-design)
 - [6. Protótipo](#10-protótipo)
 - [7. Aplicação](#11-aplicação)
@@ -95,5 +95,39 @@ Responde à pergunta: Como? Com o que? Onde? Quando?)
   
 - RNF4 - Segurança
   O sistema deve bloquear qualquer acesso que o usuário não tenha autorização para ver. O sistema deve ter cuidado com as informações cadastradas nele. 
+
+# 3. Estudo de viabilidade
+- Técnica:
+Já possuímos mão de obra qualificada para a criação do software.
+
+- Financeira:
+Não estamos tendo do gastos com a criação de software, mas tenho nosso tempo empregado para a criação.
+
+- Mercado:
+Já possuímos uma empresa interessada no software que estamos desenvolvendo.
+
+- Operacional:
+A equipe está preparada para lidar com os desafios da criação do software.
+
+### FOFA
+
+**Forças:**
+- Já possuímos um cliente interessado.
+- Nosso time possuí experiência em programação.
+- Contato direto com cliente, para realizar validações no projeto.
+
+**Oportunidades:**
+- Nosso principal cliente é dono de outras empresas, então podemos conseguir outros projetos.
+
+**Fraquezas:**
+- Tempo reduzido.
+- Comunicação da equipe poderia ser melhor.
+
+**Ameaças:**
+- Cliente abandonar o projeto.
+- Membros da equipe sairem.
+
+# 4. Regras de negócio (Modelo canvas)
+![Imagem do modelo canva]![modelo canva](https://github.com/user-attachments/assets/227b66a6-ad8a-49de-9a91-e21dfda3f44d)
 
 # 7. Aplicação
