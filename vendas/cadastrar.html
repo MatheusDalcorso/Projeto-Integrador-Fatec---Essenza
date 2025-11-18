@@ -96,13 +96,13 @@
                                 <div class="offcanvas-body">
                                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/index.html">Home</a>
+                                            <a class="nav-link" href="/">Home</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="/funcionalidades/index.html">Funcionalidades</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="/index.html">Logout</a>
+                                            <a class="nav-link" href="/">Logout</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -282,7 +282,7 @@
 
                     <!-- Additional Sections -->
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="card-section">
                                 <h3 class="section-title cor_primaria">Tipo de frete</h3>
                                 <select class="form-select form-select-custom cor_primaria">
@@ -293,7 +293,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="card-section">
                                 <h3 class="section-title cor_primaria">Forma de pagamento</h3>
                                 <select class="form-select form-select-custom cor_primaria">
@@ -305,12 +305,12 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <!-- <div class="col-md-4">
                             <div class="card-section">
                                 <h3 class="section-title cor_primaria">Prazo de entrega</h3>
                                 <input type="date" class="form-control form-control-custom cor_primaria">
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
                     <div class="card-section">
@@ -320,8 +320,8 @@
 
                     <!-- Action Buttons -->
                     <div class="action-buttons">
-                        <a href="index.html" class="btn btn-cancel">Cancelar</a>
-                        <button type="button" class="btn btn-save">Salvar Venda</button>
+                        <a href="/funcionalidades/index.html" class="btn btn-cancel">Cancelar</a>
+                        <button type="button" class="btn btn-save" onclick="location.href='/vendas/listar.html'">Salvar Venda</button>
                     </div>
                 </div>
             </div>
