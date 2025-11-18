@@ -1,28 +1,42 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Remove a margem do body */
 body {
-    font-family: "Montserrat";
-    font-weight: 400;
+    margin: 0;   
 }
 
-/* Fundo - Vídeo */
+/* ============================================= */
+/* SEÇÃO: HERO           
+/* ============================================= */
+
+.hero-section {
+    position: relative;
+    height: 100vh; 
+    width: 100%;
+    overflow: hidden; 
+    color: #FFFFFF;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
 #bkg_video {
-    position: fixed;
+    position: absolute;   
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
+    z-index: 0;         
 }
 
-/* Logo */
 .logo {
-    position: fixed;
+    position: absolute;   
     top: -25px;
     left: 50px;
     z-index: 10;
@@ -33,7 +47,7 @@ body {
 
 /* MENU */
 .menu {
-    position: fixed;
+    position: absolute;
     top: 35px;
     right: 50px;
     display: flex;
@@ -62,26 +76,25 @@ body {
     transition: 0.3s;
     background-color: #FFFFFF;
 }
-
-/* Conteúdo principal */
 .intro-synca {
-    position: absolute;
+    position: absolute;   
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFFFFF;
     text-align: center;
-    z-index: 20;
+    z-index: 10; 
 }
 
-.intro-synca p{
-    font-family: "Playfair Display", serif;
-    font-weight: 300;
+.intro-synca h1,
+.intro-synca h2 {
+    font-family: "Gloock", serif;
+    font-weight: 400;
     font-size: 40px;
     margin: 0;
+    line-height: normal;
 }
 
-/* Botão CTA */
 .botao-cta {
     margin-top: 30px;
     display: inline-block;
@@ -92,11 +105,117 @@ body {
     color: #000000;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     transition: 0.3s;
 }
 
 .botao-cta:hover {
     opacity: 0.8;
     transform: scale(1.05);
+}
+
+
+/* ======================================================= */
+/* SEÇÃO: SOBRE SYNCA 
+/* ======================================================= */
+
+.sobre-synca-section {
+    display: flex;
+    align-items: center; 
+    gap: 60px; 
+    padding: 80px 50px; 
+    max-width: 1200px; 
+    margin: 40px auto; 
+    background-color: #ffffff;
+}
+
+
+.sobre-synca-imagem {
+    flex: 1; 
+    border-radius: 20px; 
+}
+
+
+.sobre-synca-imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+.sobre-synca-texto {
+    flex: 1; 
+}
+
+.tag {
+    display: inline-block;
+    background-color: #151414;
+    color: #e5e1e1;
+    padding: 6px 16px;
+    border-radius: 15px; 
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #111;
+    margin: 0;
+}
+
+.sobre-synca-texto h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2.2rem; 
+    font-weight: 700; 
+    color: #000;
+    line-height: 1.2;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.sobre-synca-texto p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+
+/* AJUSTE PARA CELULARES (RESPONSIVO) */
+@media (max-width: 768px) {
+
+    .menu {
+        top: 20px;
+        right: 20px;
+        gap: 15px;
+    }
+    .logo {
+        left: 20px;
+    }
+    .intro-synca h1{
+        font-size: 32px;
+    }
+
+    .intro-synca h2 {
+        font-size: 32px;
+    }
+
+    .sobre-synca-section {
+        flex-direction: column; 
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .sobre-synca-imagem {
+        width: 100%;
+    }
+
+    .sobre-synca-texto h2 {
+        font-size: 1.8rem;
+    }
 }

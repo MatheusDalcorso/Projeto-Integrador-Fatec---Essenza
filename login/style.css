@@ -42,8 +42,8 @@ img {
     padding-top: 110px;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     border: 1px solid rgba(255, 255, 255, 0.18);
-    width: 517px;
-    height: 830px;
+    width: 100%;
+    height: 700px;
 }
 
 .login h1 {
@@ -93,16 +93,16 @@ img {
 
 .form-group input[type="submit"] {
     width: 70%;
+    margin-top: 25%;
     padding: 20px;
-    margin-left: 65px;
     border: none;
     border-radius: 100px;
     background-color: rgba(17, 17, 110);
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-top: 150px;
+    position: absolute;
 }
 
 .form-group input[type="submit"]:hover {
