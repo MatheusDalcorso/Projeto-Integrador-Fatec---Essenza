@@ -1,6 +1,7 @@
-/* Remove a margem do body */
-body {
-    margin: 0;   
+/* reset */
+* {
+    margin: 0;
+    padding: 0;   
 }
 
 /* ============================================= */
@@ -60,7 +61,7 @@ body {
     font-size: 18px;
     color: #FFFFFF;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 200;
     transition: 0.2s ease-in-out;
 }
 
@@ -75,6 +76,7 @@ body {
     border-radius: 20px;
     transition: 0.3s;
     background-color: #FFFFFF;
+    font-weight: 600 !important;
 }
 .intro-synca {
     position: absolute;   
@@ -88,11 +90,11 @@ body {
 
 .intro-synca h1,
 .intro-synca h2 {
-    font-family: "Gloock", serif;
-    font-weight: 400;
+    font-family: "Gilda Display", serif;
+    font-weight: 200 !important;
     font-size: 40px;
     margin: 0;
-    line-height: normal;
+    line-height: normal;  
 }
 
 .botao-cta {
@@ -103,9 +105,9 @@ body {
     background: #FFFFFF;
     text-decoration: none;
     color: #000000;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Gilda Display", sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 200;
     transition: 0.3s;
 }
 
@@ -184,6 +186,129 @@ body {
     line-height: 1.7;
     margin-bottom: 15px;
 }
+
+/* Dobra de clientes */
+
+.clientes {
+    background-color: #000;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.clientes h1 {
+    text-align: center;
+    font-size: 350%;
+    padding: 90px;
+}
+
+.clientes img {
+    position: relative;
+    max-width: 35%;
+    margin-left: 33%;
+    margin-top: 120px;
+    margin-bottom: 20%;
+}
+
+/* Contato */
+
+.contato {
+    position: absolute;
+    background-color: #000;
+    color: #FFFFFF;
+    
+}
+
+.contato h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 15%;
+    font-size: 350%;
+    margin-top: 12%;
+    padding-bottom: 5%;
+}
+
+.contato p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 15%;
+    font-size: 20px;
+    max-width: 40%;
+    margin-bottom: 2%;
+}
+
+/* Forms */
+
+.form-group {
+    margin-bottom: 10px;
+    width: 50%; 
+    margin-left: 15%;
+    
+}
+
+.form-group label {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin-bottom: 3px;
+}
+
+/* Inputs menores */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: black;
+    color: white;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+/* Placeholder branco */
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Hover e Focus */
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-bottom: 1px solid rgba(17, 17, 110, 0.7);
+}
+
+.form-group input:hover,
+.form-group textarea:hover {
+    background: rgb(20, 20, 20);
+}
+
+/* Botão branco com texto preto */
+.form-group input[type="submit"] {
+    width: 150px;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 20%;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: rgb(230, 230, 230);
+    transform: translateY(-2px);
+}
+
+
+
+
 
 
 /* AJUSTE PARA CELULARES (RESPONSIVO) */
