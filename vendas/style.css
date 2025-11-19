@@ -30,7 +30,7 @@ body {
     /* background: var(--gradient-bg); */
     background: #fff;
     background-attachment: fixed;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
     color: var(--cor-primaria);
 }
