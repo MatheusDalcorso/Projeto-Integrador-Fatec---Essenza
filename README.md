@@ -52,8 +52,14 @@ Implementar boas práticas de desenvolvimento e segurança da informação.
 Integrar o sistema às necessidades reais e rotinas específicas da Essenza Collection.
 
 ## • Metodologia
-(Que métodos, tecnologias, modelos de processo, ferramentas irá utilizar?  
-Responde à pergunta: Como? Com o que? Onde? Quando?)  
+
+Para o desenvolvimento do sistema personalizado para a Essenza Collection, adotaremos uma abordagem ágil, utilizando a metodologia Scrum. Essa metodologia permitirá uma maior flexibilidade e adaptação às necessidades do cliente ao longo do projeto.
+Utilizaremos as seguintes tecnologias e ferramentas:
+- Linguagens de Programação: PHP para o backend e JavaScript para o frontend.
+- Banco de Dados: MySQL para armazenamento e gerenciamento dos dados.  
+- Ferramentas de Desenvolvimento: Visual Studio Code como ambiente de desenvolvimento integrado (IDE).
+- Controle de Versão: Git e GitHub para versionamento e colaboração no código-fonte
+- Comunicação e Gestão de Projetos: Trello para organização das tarefas e Teams e Discord para comunicação entre a equipe.
 
 # 2. Requisitos
 
@@ -83,7 +89,7 @@ Responde à pergunta: Como? Com o que? Onde? Quando?)
   O sistema deve criar um documento pdf com o conteúdo da venda cadastrada e permitir download desse documento. O todos os tipos de usuário devem ter acesso a esse documento. 
 
 ## • Requisitos não funcionais
-(Escreva os requisitos não funcionais da aplicação (qualidade))  
+
 - RNF1 - Responsividade
   O sistema deve se ajustar a diferentes tamanhos de tela, podendo assim ser usado em diferentes aparelhos.
   
@@ -97,6 +103,7 @@ Responde à pergunta: Como? Com o que? Onde? Quando?)
   O sistema deve bloquear qualquer acesso que o usuário não tenha autorização para ver. O sistema deve ter cuidado com as informações cadastradas nele. 
 
 # 3. Estudo de viabilidade
+
 - Técnica:
 Já possuímos mão de obra qualificada para a criação do software.
 
