@@ -1,45 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synca - Menu Vendedor</title>
-
-    <!-- ARQUIVO CSS EXTERNO -->
-    <link rel="stylesheet" href="../funcionalidades/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Admin - SYNCA</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
+
+
 <body>
 
+
+    <!-- HEADER -->
     <header>
-        <img src="../img/logo-synca.png" alt="Logo Synca" class="logo">
-        <button class="logout-btn">Sair</button>
+        <div class="container">
+            <img src="img/logo.jpeg" alt="Logo Synca" class="logo">
+
+
+            <button class="logout-btn">Sair</button>
+        </div>
     </header>
 
-    <div class="container">
-        <div class="grid">
 
-            <div class="card" style="background-image: url('../img/vendas.png');" onclick="location.href='#'">
-                <p>Cadastrar<br>Vendas</p>
+    <!-- MAIN GRID -->
+    <main class="container">
+
+
+        <!-- LINHA 1 (2 CARDS) -->
+        <div class="grid-row grid-2">
+            <div class="card">
+                <img src="../img/cadastrovenda.png" alt="">
+                <span>Cadastrar Vendas</span>
             </div>
 
-            <div class="card" style="background-image: url('../img/lista-venda.png');" onclick="location.href='#'">
-                <p>Listar<br>Vendas</p>
-            </div>
 
-            <div class="card" style="background-image: url('../img/listar-produtos.png');" onclick="location.href='#'">
-                <p>Listar<br>Produtos</p>
+            <div class="card">
+                <img src="../img/listavenda.png" alt="">
+                <span>Listar Vendas</span>
             </div>
-
-            <div class="card" style="width: 69rem; background-image: url('../img/historico-pedidos.png');" onclick="location.href='#'">
-                <p>Histórico de<br>Pedidos</p>
-            </div>
-
         </div>
-    </div>
 
+
+        <!-- LINHA 2 (2 CARDS) -->
+        <div class="grid-row grid-2">
+            <div class="card">
+                <img src="../img/cadastroprodutos.png" alt="">
+                <span>Cadastrar Produtos</span>
+            </div>
+
+
+            <div class="card">
+                <img src="../img/listaprodutos.png" alt="">
+                <span>Listar Produtos</span>
+            </div>
+        </div>
+
+
+        <!-- LINHA 3 (3 CARDS) -->
+        <div class="grid-row grid-3">
+            <div class="card">
+                <img src="../img/historico.png" alt="">
+                <span>Histórico de Pedidos</span>
+            </div>
+
+
+            <div class="card">
+                <img src="../img/cadastrousuarios.png" alt="">
+                <span>Cadastrar Usuários</span>
+            </div>
+
+
+            <div class="card">
+                <img src="../img/listausuarios.png" alt="">
+                <span>Listar Usuários</span>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
     <footer>
-        Synca © 2025
+        <p>Synca © 2025</p>
     </footer>
+
 
 </body>
 </html>
