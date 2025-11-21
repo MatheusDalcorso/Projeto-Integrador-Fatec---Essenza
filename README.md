@@ -147,6 +147,8 @@ Nossa paleta de cores é composta por quatro cores:
  - #d1d1d1
  - #161616
 
+![paleta de cores](https://github.com/user-attachments/assets/0a4e41aa-2201-4a92-a0e3-3c0494bbecdd)
+
 Nossa tipografia é a seguinte:
  - Logo: Mokoto
  - Texto: Monserrat
