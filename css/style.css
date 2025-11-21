@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
 /* Fundo - Vídeo */
 #bkg_video {
     position: fixed;
@@ -31,7 +42,7 @@
 }
 
 .menu a {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat";
     font-size: 18px;
     color: #FFFFFF;
     text-decoration: none;
@@ -42,6 +53,14 @@
 .menu a:hover,
 .menu a.active {
     opacity: 0.7;
+}
+
+.botao-login {
+    margin-top: -8px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+    background-color: #FFFFFF;
 }
 
 /* Conteúdo principal */
@@ -55,13 +74,11 @@
     z-index: 20;
 }
 
-.intro-synca h1,
-.intro-synca h2 {
-    font-family: "Gloock", serif;
-    font-weight: 400;
+.intro-synca p{
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
     font-size: 40px;
     margin: 0;
-    line-height: normal;
 }
 
 /* Botão CTA */
@@ -75,7 +92,7 @@
     color: #000000;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     transition: 0.3s;
 }
 
