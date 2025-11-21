@@ -166,6 +166,6 @@ Link do protótipo: https://www.figma.com/design/QJWOUv8Bm4XrxgArD7DpXO/Synca?no
 # 7. Aplicação
 
 A aplicação está em desenvolvimento. Atualmente, só temos algumas das telas estáticas prontas. Nos próximos semestres iremos desenvolver o resto da aplicação, incluindo:
-    banco de dados, back-end e aprimorar o front-end.
+  Banco de dados, back-end e aprimorar o front-end.<br>
 Eventualmente vamos desenvolver uma versão mobile da aplicação.
 
