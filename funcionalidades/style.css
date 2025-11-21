@@ -1,99 +1,208 @@
-/* Estilos gerais */
+:root {
+    --cor-primaria: #160F71;
+    --cor-secundaria: #554eae;
+    --cor-terciaria: #d1d1d1;
+}
+/* GLOBAL */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.cor_primaria {
+    color: var(--cor-primaria);
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #f4f4f4;
-    color: #191970;
+    background: white;
+    color: var(--cor-primaria);
 }
 
-/* Header */
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* HEADER */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
     background: #ffffff;
-    border-bottom: 2px solid #191970;
+    padding: 20px 0;
+}
+
+.nav-link {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #554eae;
+}
+
+.btn-sair {
+    background-color: var(--cor-primaria);
+    color: white;
+    /* border: 2px solid var(--cor-primaria); */
+    padding: 0.4rem 1.5rem;
+    margin-top: 0.2rem;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-sair:hover {
+    background-color: white;
+    border: 1px solid var(--cor-primaria);
+    color: var(--cor-primaria);
+}
+
+.header-divider {
+    border: none;
+    border-top: 2px solid var(--cor-primaria);
+    opacity: 0.7;
+    margin: 0 10%;
 }
 
 .logo {
-    height: 55px;
+    width: 70px;
 }
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 .logout-btn {
-    background: #191970;
+    background: #0c0b6b;
     color: #fff;
+    padding: 10px 26px;
+    border-radius: 20px;
     border: none;
-    border-radius: 25px;
-    padding: 10px 30px;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+    transition: .2s;
 }
+
 
 .logout-btn:hover {
-    background: #3942c2;
+    opacity: 0.85;
 }
 
-/* Cards padrão */
-.container {
-    width: 90%;
-    max-width: 1100px;
-    margin: 40px auto;
-}
 
-.grid {
+/* === NOVA GRID SEPARADA POR LINHAS === */
+
+
+.grid-row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    gap: 22px;
+    gap: 20px;
+    margin-top: 30px;
 }
+
+
+/* Linha 1 e 2 → 2 cards esticados */
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* Linha 3 → 3 cards esticados */
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 
 .card {
     position: relative;
-    height: 220px;
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
     overflow: hidden;
-    transition: transform .3s ease-in-out;
-}
-
-.card::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+    cursor: pointer;
     width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.40);
 }
 
-.card p {
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    filter: brightness(0.75);
+    transition: .3s;
+}
+
+
+.card:hover img {
+    filter: brightness(0.55);
+}
+
+
+.card span {
     position: absolute;
-    bottom: 18px;
-    left: 20px;
+    bottom: 12px;
+    left: 12px;
     color: #fff;
-    font-size: 20px;
     font-weight: bold;
-    z-index: 2;
+    text-shadow: 1px 1px 4px #000;
+    font-size: 15px;
 }
 
-/* Efeito hover */
-.card:hover {
-    transform: scale(1.04);
-}
 
-/* Rodapé */
-footer {
+/* FOOTER */
+/* footer {
+    background: #0c0b6b;
+    padding: 16px 0;
+    margin-top: 50px;
     text-align: center;
-    padding: 20px;
-    background: #191970;
     color: #fff;
-    margin-top: 296px;
     font-size: 14px;
+} */
+footer {
+    background-color: var(--cor-primaria);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+.footer-text {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 900px) {
+    .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 600px) {
+    header .logo {
+        width: 90px;
+    }
+
+
+    .grid-2,
+    .grid-3 {
+        grid-template-columns: 1fr;
+    }
+
+
+    .card img {
+        height: 160px;
+    }
 }

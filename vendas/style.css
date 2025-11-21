@@ -2,6 +2,7 @@
 :root {
     --cor-primaria: #160F71;
     --cor-secundaria: #554eae;
+    --cor-terciaria: #d1d1d1;
     --primary-purple: #5B2C6F;
     --primary-blue: #1E3A8A;
     --primary-pink: #F5D5C8;
@@ -29,9 +30,9 @@ body {
     /* background: var(--gradient-bg); */
     background: #fff;
     background-attachment: fixed;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
-    color: #333;
+    color: var(--cor-primaria);
 }
 
 /* estilos do header */
@@ -41,6 +42,24 @@ body {
     color: white;
     padding: 1rem 0;
     /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.btn-sair {
+    background-color: var(--cor-primaria);
+    color: white;
+    /* border: 2px solid var(--cor-primaria); */
+    padding: 0.4rem 1.5rem;
+    margin-top: 0.2rem;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-sair:hover {
+    background-color: white;
+    border: 1px solid var(--cor-primaria);
+    color: var(--cor-primaria);
 }
 
 .logo-box {
@@ -114,7 +133,7 @@ body {
 }
 
 .sale-card {
-    background-color: var(--primary-pink);
+    background-color: var(--cor-terciaria);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -127,7 +146,7 @@ body {
 
 .sale-info {
     padding: 1.5rem;
-    border-right: 4px solid var(--primary-purple);
+    border-right: 4px solid var(--cor-primaria);
 }
 
 .sale-id,
@@ -146,7 +165,7 @@ body {
 }
 
 .btn-details {
-    background-color: var(--primary-purple);
+    background-color: var(--cor-secundaria);
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -159,12 +178,12 @@ body {
 }
 
 .btn-details:hover {
-    background-color: var(--primary-dark-purple);
+    background-color: var(--cor-primaria);
     color: white;
     text-decoration: none;
 }
 
-.btn-pdf {
+/* .btn-pdf {
     background-color: transparent;
     color: var(--primary-purple);
     border: 2px solid var(--primary-purple);
@@ -178,11 +197,11 @@ body {
 .btn-pdf:hover {
     background-color: var(--primary-purple);
     color: white;
-}
+} */
 
 /* Card Sections */
 .card-section {
-    background-color: #d1d1d1;
+    background-color: var(--cor-terciaria);
     /* background-color: var(--primary-pink); */
     border-radius: 8px;
     padding: 1.5rem;
@@ -247,7 +266,7 @@ body {
 /* Products Section */
 .products-section {
     /* background-color: var(--primary-purple); */
-    background-color: #d1d1d1 ;
+    background-color: var(--cor-terciaria) ;
     border-radius: 8px;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
@@ -437,7 +456,7 @@ footer {
 
     .sale-info {
         border-right: none;
-        border-bottom: 4px solid var(--primary-purple);
+        border-bottom: 4px solid var(--cor-primaria);
     }
 
     .sale-actions {

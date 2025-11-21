@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de venda - SYNCA</title>
+    <title>Detalhes de venda - SYNCA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,14 +17,6 @@
     <header class="header">
         <div class="container-fluid">
             <div class="row align-items-center mx-5 px-5 py-3">
-                <!-- <div class="col-auto">
-                    <div class="logo-box">
-                        <span class="logo-text">S</span>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <h1 class="logo-title">SYNCA</h1>
-                </div> -->
                 <div class="col-auto">
 
                     <img src="/img/logo-synca.png" class="logo" alt="Synca Logo">
@@ -73,6 +65,13 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
+                    <!-- Id -->
+                    <div class="card-section">
+                        <h3 class="cor_primaria section-title ">Id venda</h3>
+                        <div class="category-options">
+                            <p class="cor_primaria">3</p>
+                        </div>
+                    </div>
                     <!-- Category Selection -->
                     <div class="card-section">
                         <h3 class="cor_primaria section-title ">Categorias</h3>
@@ -80,7 +79,7 @@
 
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="categoria" id="parceria"
-                                    value="parceria" checked>
+                                    value="parceria" disabled>
                                 <label class="form-check-label cor_primaria" for="parceria">
                                     Parceria comercial
                                 </label>
@@ -88,7 +87,7 @@
 
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="categoria" id="venda_direta"
-                                    value="venda_direta">
+                                    value="venda_direta"  checked>
                                 <label class="form-check-label cor_primaria" for="venda_direta">
                                     Venda direta
                                 </label>
@@ -105,30 +104,30 @@
                                     <label for="nome_cliente" class="form-label cor_primaria"><strong>Nome do
                                             cliente</strong></label>
                                     <input type="text" class="form-control form-control-custom cor_primaria"
-                                        id="nome_cliente" placeholder="Digite o nome do cliente">
+                                        id="nome_cliente" value="Elias Gabriel Bastos Michelon" readonly>
                                 </div>
                                 <div class="col-md-12 mb-3">
                                     <label for="endereco"
                                         class="form-label cor_primaria"><strong>Endereço</strong></label>
                                     <input type="text" class="form-control form-control-custom cor_primaria"
-                                        id="endereco" placeholder="Digite o endereço">
+                                        id="endereco" value="Rua teste" readonly>
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <label for="cpf_cnpj"
                                         class="form-label cor_primaria"><strong>CPF/CNPJ</strong></label>
                                     <input type="text" class="form-control form-control-custom cor_primaria"
-                                        id="cpf_cnpj" placeholder="Digite o CPF/CNPJ">
+                                        id="cpf_cnpj" value="123.456.789-10" readonly>
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <label for="telefone"
                                         class="form-label cor_primaria"><strong>Telefone</strong></label>
                                     <input type="tel" class="form-control form-control-custom cor_primaria"
-                                        id="telefone" placeholder="Digite o telefone">
+                                        id="telefone" value="3621-3621" readonly>
                                 </div>
                                 <div class="col-md-12 mb-3">
                                     <label for="email" class="form-label cor_primaria"><strong>Email</strong></label>
                                     <input type="email" class="form-control form-control-custom cor_primaria" id="email"
-                                        placeholder="Digite o email">
+                                        value="elias@gmail.com" readonly>
                                 </div>
                             </div>
                         </form>
@@ -158,26 +157,24 @@
                                                     <label for="fragancia1"
                                                         class="form-label cor_primaria"><strong>Fragrância</strong></label>
                                                     <select class="form-select form-select-custom cor_primaria"
-                                                        id="fragancia1">
-                                                        <option>Selecione</option>
-                                                        <option>Eclipse noire</option>
-                                                        <option>Jardin des etoiles</option>
-                                                        <option>Brise céleste</option>
+                                                        id="fragancia1" onchange="this.value = '1'">
+                                                        <option value="0">Selecione</option>
+                                                        <option selected value="1">Eclipse noire</option>
+                                                        <option value="2">Jardin des etoiles</option>
+                                                        <option value="3">Brise céleste</option>
                                                     </select>
                                                 </div>
                                                 <div class="quantity-control ">
-                                                    <button id="botao_menos1" type="button" class="btn-qty">-</button>
+                                                    <button id="botao_quebrado1" type="button" class="btn-qty">-</button>
                                                     <input id="quantidade1" type="text" class="qty-input cor_primaria"
-                                                        value="0" readonly>
-                                                    <button id="botao_mais1" type="button" class="btn-qty">+</button>
+                                                        value="1" readonly>
+                                                    <button id="botao_quebrado2" type="button" class="btn-qty">+</button>
                                                 </div>
                                                 <div class="product-info-footer">
                                                     <p class="cor_primaria"><strong>SKU:</strong> VL10BRA</p>
                                                     <p class="cor_primaria"><strong>Categorias:</strong> Branca, T10</p>
                                                     <p class="cor_primaria"><strong>Product ID:</strong> 4TT52</p>
                                                 </div>
-                                                <button type="button" class="btn btn-add-to-order w-100">Adicionar ao
-                                                    pedido</button>
                                             </div>
                                         </div>
                                     </div>
@@ -204,26 +201,24 @@
                                                     <label for="fragancia2"
                                                         class="form-label cor_primaria"><strong>Fragrância</strong></label>
                                                     <select class="form-select form-select-custom cor_primaria"
-                                                        id="fragancia2">
-                                                        <option>Selecione</option>
-                                                        <option>Eclipse noire</option>
-                                                        <option>Jardin des etoiles</option>
-                                                        <option>Brise céleste</option>
+                                                        id="fragancia2" onchange="this.value = '2'">
+                                                        <option value="0">Selecione</option>
+                                                        <option value="1">Eclipse noire</option>
+                                                        <option selected value="2">Jardin des etoiles</option>
+                                                        <option value="3">Brise céleste</option>
                                                     </select>
                                                 </div>
                                                 <div class="quantity-control mb-3">
-                                                    <button id="botao_menos2" type="button" class="btn-qty">-</button>
-                                                    <input id="quantidade2" type="text" class="qty-input" value="0"
+                                                    <button id="botao_quebrado3" type="button" class="btn-qty">-</button>
+                                                    <input id="quantidade2" type="text" class="qty-input" value="2"
                                                         readonly>
-                                                    <button id="botao_mais2" type="button" class="btn-qty">+</button>
+                                                    <button id="botao_quebrado4" type="button" class="btn-qty">+</button>
                                                 </div>
                                                 <div class="product-info-footer">
                                                     <p class="cor_primaria"><strong>SKU:</strong> VL12BRA</p>
                                                     <p class="cor_primaria"><strong>Categorias:</strong> Branca, T12</p>
                                                     <p class="cor_primaria"><strong>Product ID:</strong> 4TT57</p>
                                                 </div>
-                                                <button type="button" class="btn btn-add-to-order w-100">Adicionar ao
-                                                    pedido</button>
                                             </div>
                                         </div>
                                     </div>
@@ -237,23 +232,23 @@
                         <div class="col-md-6">
                             <div class="card-section">
                                 <h3 class="section-title cor_primaria">Tipo de frete</h3>
-                                <select class="form-select form-select-custom cor_primaria">
-                                    <option>Selecione o tipo de frete</option>
-                                    <option>Sedex</option>
-                                    <option>PAC</option>
-                                    <option>Retirada</option>
+                                <select class="form-select form-select-custom cor_primaria" onchange="this.value='3'">
+                                    <option value="0">Selecione o tipo de frete</option>
+                                    <option value="1">Sedex</option>
+                                    <option value="2">PAC</option>
+                                    <option value="3" selected>Retirada</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="card-section">
                                 <h3 class="section-title cor_primaria">Forma de pagamento</h3>
-                                <select class="form-select form-select-custom cor_primaria">
-                                    <option>Selecione a forma de pagamento</option>
-                                    <option>Cartão de crédito</option>
-                                    <option>Cartão de débito</option>
-                                    <option>Boleto</option>
-                                    <option>PIX</option>
+                                <select class="form-select form-select-custom cor_primaria" onchange="this.value='1'">
+                                    <option value="0">Selecione a forma de pagamento</option>
+                                    <option value="1" selected>Cartão de crédito</option>
+                                    <option value="2">Cartão de débito</option>
+                                    <option value="3">Boleto</option>
+                                    <option value="4">PIX</option>
                                 </select>
                             </div>
                         </div>
@@ -267,13 +262,13 @@
 
                     <div class="card-section">
                         <h3 class="section-title cor_primaria">Prazo de entrega</h3>
-                        <input type="date" class="form-control form-control-custom cor_primaria">
+                        <input type="date" class="form-control form-control-custom cor_primaria" value="2025-12-25" readonly>
                     </div>
 
                     <!-- Action Buttons -->
                     <div class="action-buttons">
-                        <a href="/funcionalidades/index.html" class="btn btn-cancel">Cancelar</a>
-                        <button type="button" class="btn btn-save" onclick="location.href='/vendas/listar.html'">Salvar Venda</button>
+                        <a href="#" class="btn btn-cancel">Gerar PDF</a>
+                        <button type="button" class="btn btn-save" onclick="location.href='/vendas/listar.html'">voltar</button>
                     </div>
                 </div>
             </div>

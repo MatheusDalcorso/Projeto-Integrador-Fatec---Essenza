@@ -1,45 +1,145 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synca - Menu Vendedor</title>
+<html lang="pt-BR">
 
-    <!-- ARQUIVO CSS EXTERNO -->
-    <link rel="stylesheet" href="../funcionalidades/style.css">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Administrador - SYNCA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
+
 <body>
 
-    <header>
-        <img src="../img/logo-synca.png" alt="Logo Synca" class="logo">
-        <button class="logout-btn">Sair</button>
+
+    <!-- HEADER -->
+    <!-- <header>
+        <div class="container">
+            <img src="/img/logo-synca.png" alt="Logo Synca" class="logo">
+
+
+            <button class="logout-btn">Sair</button>
+        </div>
+    </header> -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row align-items-center mx-5 px-5 py-3">
+                <div class="col-auto">
+
+                    <img src="/img/logo-synca.png" class="logo" alt="Synca Logo">
+
+                </div>
+                <div class="col-auto ms-auto">
+                    <nav class="navbar navbar-expand-md ">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                                aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title cor_primaria" id="offcanvasNavbarLabel">Menu</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/funcionalidades/index.html">Funcionalidades</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <button type="button" class="btn btn-sair"
+                                                onclick="location.href='/index.html'">Sair</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+        <hr class="header-divider">
     </header>
 
-    <div class="container">
-        <div class="grid">
+    <!-- MAIN GRID -->
+    <main class="container">
 
-            <div class="card" style="background-image: url('../img/vendas.png');" onclick="location.href='#'">
-                <p>Cadastrar<br>Vendas</p>
+
+        <!-- LINHA 1 (2 CARDS) -->
+        <div class="grid-row grid-2">
+            <div class="card">
+                <a href="/vendas/cadastrar.html"><img src="/img/cadastrovenda.png" alt=""></a>
+                <span>Cadastrar Vendas</span>
             </div>
 
-            <div class="card" style="background-image: url('../img/lista-venda.png');" onclick="location.href='#'">
-                <p>Listar<br>Vendas</p>
-            </div>
 
-            <div class="card" style="background-image: url('../img/listar-produtos.png');" onclick="location.href='#'">
-                <p>Listar<br>Produtos</p>
+            <div class="card">
+                <a href="/vendas/listar.html"><img src="/img/listavenda.png" alt=""></a>
+                <span>Listar Vendas</span>
             </div>
-
-            <div class="card" style="width: 69rem; background-image: url('../img/historico-pedidos.png');" onclick="location.href='#'">
-                <p>Histórico de<br>Pedidos</p>
-            </div>
-
         </div>
-    </div>
 
+
+        <!-- LINHA 2 (2 CARDS) -->
+        <div class="grid-row grid-2">
+            <div class="card">
+                <img src="/img/cadastroprodutos.png" alt="">
+                <span>Cadastrar Produtos</span>
+            </div>
+
+
+            <div class="card">
+                <img src="/img/listaprodutos.png" alt="">
+                <span>Listar Produtos</span>
+            </div>
+        </div>
+
+
+        <!-- LINHA 3 (3 CARDS) -->
+        <div class="grid-row grid-3">
+            <div class="card">
+                <img src="/img/historicopedidos.jpg" alt="">
+                <span>Histórico de Pedidos</span>
+            </div>
+
+
+            <div class="card">
+                <img src="/img/cadastrarusuarios.jpg" alt="">
+                <span>Cadastrar Usuários</span>
+            </div>
+
+
+            <div class="card">
+                <img src="/img/listarusuarios.jpg" alt="">
+                <span>Listar Usuários</span>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <!-- <footer>
+        <p>Synca © 2025</p>
+    </footer> -->
     <footer>
-        Synca © 2025
+        <p class="footer-text">Synca ® 2025</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
