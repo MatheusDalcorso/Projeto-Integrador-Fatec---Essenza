@@ -14,15 +14,16 @@ Projeto Integrador de alunos da Fatec Jahu. Criado para atender uma necessidade 
   - [Requisitos não funcionais](#-requisitos-não-funcionais)
 - [3. Estudo de viabilidade](#3-estudo-de-viabilidade)
 - [4. Regras de negócio (Modelo canvas)](#4-regras-de-negócio-modelo-canvas)
-- [5. Design](#9-design)
-- [6. Protótipo](#10-protótipo)
-- [7. Aplicação](#11-aplicação)
+- [5. Design](#5-design)
+- [6. Protótipo](#6-protótipo)
+- [7. Aplicação](#7-aplicação)
 
 </details>
 
 Para cada semestre, do 1º ao 6º, iremos utilizar este template para documentar o PI - incrementalmente.
 
 # 1. Introdução
+
 O Projeto consiste no desenvolvimento de um sistema personalizado para a empresa Essenza Collection, especializada na produção e comercialização de velas artesanais e decorativas. O sistema foi idealizado com o propósito de otimizar a comunicação interna entre gestores e colaboradores, além de agilizar os processos de gestão de produtos e vendas.
 
 A iniciativa busca modernizar a forma como as informações são compartilhadas e administradas dentro da empresa, proporcionando maior integração entre os setores, melhor controle operacional e eficiência na tomada de decisões.
@@ -135,6 +136,34 @@ A equipe está preparada para lidar com os desafios da criação do software.
 - Membros da equipe sairem.
 
 # 4. Regras de negócio (Modelo canvas)
+
 ![Imagem do modelo canva]![modelo canva](https://github.com/user-attachments/assets/227b66a6-ad8a-49de-9a91-e21dfda3f44d)
 
+# 5. Design
+
+Nossa paleta de cores é composta por quatro cores:
+ - #160f71
+ - #554eae
+ - #d1d1d1
+ - #161616
+
+Nossa tipografia é a seguinte:
+ - Logo: Mokoto
+ - Texto: Monserrat
+
+Nosso logo é o seguinte:
+
+![Imagem dos modelos da logo]
+
+# 6. Protótipo
+
+![Imagem do protótipo]
+
+Link do protótipo: https://www.figma.com/design/QJWOUv8Bm4XrxgArD7DpXO/Synca?node-id=0-1&t=C34iWUdsTKxwXMT1-1
+
 # 7. Aplicação
+
+A aplicação está em desenvolvimento. Atualmente, só temos algumas das telas estáticas prontas. Nos próximos semestres iremos desenvolver o resto da aplicação, incluindo:
+    banco de dados, back-end e aprimorar o front-end.
+Eventualmente vamos desenvolver uma versão mobile da aplicação.
+
