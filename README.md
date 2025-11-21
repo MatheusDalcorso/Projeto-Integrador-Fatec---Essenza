@@ -137,7 +137,7 @@ A equipe está preparada para lidar com os desafios da criação do software.
 
 # 4. Regras de negócio (Modelo canvas)
 
-![Imagem do modelo canva]![modelo canva](https://github.com/user-attachments/assets/227b66a6-ad8a-49de-9a91-e21dfda3f44d)
+![modelo canva](https://github.com/user-attachments/assets/227b66a6-ad8a-49de-9a91-e21dfda3f44d)
 
 # 5. Design
 
@@ -153,12 +153,12 @@ Nossa tipografia é a seguinte:
 
 Nosso logo é o seguinte:
 
-![Imagem dos modelos da logo]<img width="1230" height="302" alt="Logos" src="https://github.com/user-attachments/assets/d3614d75-885c-4bfa-8a4a-97003a7f5746" />
+![Imagem dos modelos da logo](https://github.com/user-attachments/assets/d3614d75-885c-4bfa-8a4a-97003a7f5746)
 
 
 # 6. Protótipo
 
-![Imagem do protótipo]<img width="1312" height="680" alt="Captura de tela 2025-11-21 021159" src="https://github.com/user-attachments/assets/b9e8d652-7efe-4762-9089-8f89e7e30f02" />
+![Imagem do protótipo](https://github.com/user-attachments/assets/b9e8d652-7efe-4762-9089-8f89e7e30f02)
 
 
 Link do protótipo: https://www.figma.com/design/QJWOUv8Bm4XrxgArD7DpXO/Synca?node-id=0-1&t=C34iWUdsTKxwXMT1-1
