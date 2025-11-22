@@ -151,6 +151,7 @@ Nossa paleta de cores é composta por quatro cores:
 
 Nossa tipografia é a seguinte:
  - Logo: Mokoto
+ - Landing page: Gilda
  - Texto: Montserrat
 
 Nosso logo é o seguinte:
