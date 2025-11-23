@@ -17,7 +17,6 @@
 
 <body>
 
-
     <header class="hero-section">
 
         <video autoplay muted loop id="bkg_video">
@@ -28,10 +27,9 @@
         <div class="overlay"></div>
 
         <div class="menu">
-            <a href="">SYNCA</a>
-            <a href="">PREÇOS</a>
-            <a href="">EQUIPE</a>
-            <a href="">CONTATO</a>
+            <a href="#synca">SYNCA</a>
+            <a href="#equipe">EQUIPE</a>
+            <a href="#contato">CONTATO</a>
             <a class="botao-login" style="color: rgba(0, 0, 0, 0.705);" href="/login/index.html">LOGIN</a>
         </div>
 
@@ -42,13 +40,15 @@
         <div class="intro-synca">
             <h1>INFORMAÇÃO QUE FLUI</h1>
             <h2>PRODUÇÃO QUE ACONTECE</h2>
-            <a href="#" class="botao-cta">Descubra</a>
+            <a href="#synca" class="botao-cta">Descubra</a>
         </div>
 
     </header>
 
     <main>
-        <section class="sobre-synca-section">
+
+        <!-- SEÇÃO SYNCA -->
+        <section id="synca" class="sobre-synca-section">
 
             <div class="sobre-synca-imagem">
                 <img src="./img/sistema_synca.jpg" alt="Imagem Ilustrativa">
@@ -118,30 +118,25 @@
             </div>
         </section>
 
-
         <section class="clientes">
             <h1>NOSSOS CLIENTES:</h1>
             <img src="img/logo-invertida.png" alt="logo-invertida" class="src">
         </section>
 
-        <section class="sobre-nos-section">
+        <!-- SEÇÃO EQUIPE -->
+        <section id="equipe" class="sobre-nos-section">
 
             <div class="sobre-nos-texto">
-                <span class="tag">SYNCA</span>
+                <span class="tag">Sobre Nós</span>
 
-                <p class="subtitulo">Simplifique processos. Potencialize resultados.</p>
+                <p class="subtitulo">Construindo Soluções. Evoluindo Juntos.</p>
 
                 <h2>A Plataforma que Conecta, Organiza e Impulsiona sua Empresa</h2>
 
-                <p>Um sistema completo desenvolvido para elevar o desempenho de empresas que atuam com produção e
-                    vendas. Nossa solução integra equipes, centraliza informações e automatiza tarefas essenciais,
-                    garantindo mais eficiência, precisão e rapidez no dia a dia.</p>
+                <p>Somos um grupo de estudantes do curso de Desenvolvimento de Software Multiplataforma, apaixonados por tecnologia e criação de soluções inovadoras. Unidos pelo interesse em transformar ideias em sistemas funcionais, trabalhamos com foco em aprendizado contínuo, boas práticas de desenvolvimento e colaboração.
 
-                <p>Com funcionalidades como gestão de usuários, controle de produtos, registro inteligente de vendas,
-                    atualização de status em tempo real, alertas automáticos por e-mail e geração de documentos em PDF,
-                    oferecemos uma experiência moderna e confiável. Projetado para acompanhar o ritmo do seu negócio, o
-                    sistema combina segurança, usabilidade e tecnologia para transformar processos e impulsionar
-                    resultados.</p>
+                Cada projeto que realizamos representa uma oportunidade de evoluir como profissionais e entregar soluções que agreguem valor real. Nosso compromisso é desenvolver sistemas eficientes, modernos e alinhados às necessidades das empresas, sempre com dedicação, criatividade e responsabilidade.</p>
+
             </div>
 
             <div class="sobre-synca-imagem">
@@ -150,7 +145,8 @@
 
         </section>
 
-        <section class="contato">
+        <!-- SEÇÃO CONTATO -->
+        <section id="contato" class="contato">
             <h1>Contato</h1>
             <p>Sinta-se à vontade para entrar em contato conosco — estamos sempre prontos para ajudar e responder o mais
                 rápido possível.</p>
@@ -176,7 +172,6 @@
             </form>
 
         </section>
-
 
     </main>
 
