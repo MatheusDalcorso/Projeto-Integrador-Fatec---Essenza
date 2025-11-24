@@ -1,3 +1,4 @@
+
 # Projeto Integrador Fatec - Essenza
 Projeto Integrador de alunos da Fatec Jahu. Criado para atender uma necessidade da empresa Essenza
 
@@ -154,9 +155,11 @@ Nossa tipografia é a seguinte:
  - Landing page: Gilda
  - Texto: Montserrat
 
-Nosso logo é o seguinte:
+Nosso logotipo é o seguinte:
 
 ![Imagem dos modelos da logo](https://github.com/user-attachments/assets/d3614d75-885c-4bfa-8a4a-97003a7f5746)
+
+![Imagem dos modelos da logo alternativos](https://github.com/user-attachments/assets/0f79b026-af62-4790-836f-370e55acd53b)
 
 
 # 6. Protótipo
